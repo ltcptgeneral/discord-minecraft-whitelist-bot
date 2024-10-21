@@ -1,0 +1,4 @@
+**/go.sum
+**/config.json
+**/db.json
+dist/*

@@ -1,0 +1,11 @@
+[Unit]
+Description=discord-minecraft-whitelist-bot
+After=network.target
+[Service]
+WorkingDirectory=/<path to dir>
+ExecStart=/<path to dir>/discord-minecraft-whitelist-bot
+Restart=always
+RestartSec=10
+Type=simple
+[Install]
+WantedBy=default.target
