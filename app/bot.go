@@ -10,8 +10,6 @@ import (
 	"github.com/gorcon/rcon"
 )
 
-var s *discordgo.Session
-var config Config
 var dbPath string
 var db MemberUsernameMap
 var conn *rcon.Conn
